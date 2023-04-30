@@ -1,0 +1,15 @@
+.footer {  
+    height: 10vh;
+    padding: 10px 0px;
+    background: #292f33;
+    display: flex;
+    align-items: center;     
+    position: relative;
+    z-index: 2;
+}
+.footer_main {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    color: #c7a866;
+}

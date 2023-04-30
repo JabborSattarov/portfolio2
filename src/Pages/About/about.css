@@ -1,0 +1,286 @@
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: #fff;
+    background-image: linear-gradient(45deg, #c7a866, #292f33);
+    overflow: hidden;
+}
+.about_descriptions {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    flex-direction: column; 
+    position: relative;
+    z-index: 1;
+}
+.about_descriptions::before {
+    content: "";
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left : -300px;
+    top: -200px;
+    background: #292f33;
+    border-radius: 50%;
+    z-index: -1;
+    box-shadow: 0px 0px 150px 150px #292f33;
+}
+.about_descriptions::after {
+    content: "";
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../../Assets/images/img2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    object-fit: contain;
+    z-index: -1;
+}
+
+.about_name {
+    width: 60%;
+    font-size: 52px;
+    padding: 40px 0px;
+}
+.about_text {
+    width: 60%;
+    font-size: 20px;
+    padding: 20px 10px 20px 0px;
+    text-align: justify;
+}
+.ts {
+    color: #2b60de;
+}
+.js {
+    color: #f0db4f;
+}
+.contact_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;   
+    text-decoration: none;
+    color: #c7a866;
+    background: #292f33;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+.about_icons {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0px;
+}
+.instagram_icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 40%;
+    margin: 0px 20px 0px 0px;
+    background: -webkit-radial-gradient(
+            32% 106%,
+            circle cover,
+            rgb(255, 225, 125) 0%,
+            rgb(255, 205, 105) 10%,
+            rgb(250, 145, 55) 28%,
+            rgb(235, 65, 65) 42%,
+            transparent 82%
+        ),
+        -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190)
+                    58%);
+    background: -moz-radial-gradient(
+            32% 106%,
+            circle cover,
+            rgb(255, 225, 125) 0%,
+            rgb(255, 205, 105) 10%,
+            rgb(250, 145, 55) 28%,
+            rgb(235, 65, 65) 42%,
+            transparent 82%
+        ),
+        -moz-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -ms-radial-gradient(
+            32% 106%,
+            circle cover,
+            rgb(255, 225, 125) 0%,
+            rgb(255, 205, 105) 10%,
+            rgb(250, 145, 55) 28%,
+            rgb(235, 65, 65) 42%,
+            transparent 82%
+        ),
+        -ms-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: -o-radial-gradient(
+            32% 106%,
+            circle cover,
+            rgb(255, 225, 125) 0%,
+            rgb(255, 205, 105) 10%,
+            rgb(250, 145, 55) 28%,
+            rgb(235, 65, 65) 42%,
+            transparent 82%
+        ),
+        -o-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    background: radial-gradient(
+            circle farthest-corner at 32% 106%,
+            rgb(255, 225, 125) 0%,
+            rgb(255, 205, 105) 10%,
+            rgb(250, 145, 55) 28%,
+            rgb(235, 65, 65) 42%,
+            transparent 82%
+        ),
+        linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+}
+
+.telegram_icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 40%;
+    margin: 0px 20px 0px 0px;
+    background: #fff;
+    overflow: hidden;
+}
+.linkedin_icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 40%;
+    margin: 0px 20px 0px 0px;
+    background: #2b60de;
+    overflow: hidden;
+}
+
+@media (max-width: 1023px) {
+
+    .about_name {
+        width: 60%;
+        font-size: 42px;
+    }
+    .desc_job {
+        width: 100%;
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+}
+@media (max-width: 769px) {
+    .about {
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: contain;
+    }
+    .about_descriptions {
+        width: 100%;
+    }
+    .about_descriptions::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: -70%;
+        background: #292f33;
+        border-radius: 50%;
+        z-index: -1;
+        box-shadow: 0px 0px 50px 150px #292f33;
+    }
+    .about_descriptions::after {
+        display: none;
+    }
+    .about_name {
+        width: 100%;
+        font-size: 32px;
+        text-align: center;
+    }
+    .desc_job {
+        width: 100%;
+        font-size: 19px;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .about_text {
+        width: 100%;
+        font-size: 18px;
+        padding: 20px 10px 20px 0px;
+        text-align: justify;
+    }
+    .about_icons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+}
+@media (max-width: 480px) {
+    .about {
+        width: 100%;
+        height: 100vh;
+    }
+    .about_descriptions {
+        width: 100%;
+    }
+    .about_descriptions::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: -70%;
+        background: #292f33;
+        border-radius: 50%;
+        z-index: -1;
+        box-shadow: 0px 0px 50px 150px #292f33;
+    }
+    
+    .about_descriptions::after {
+        display: none;
+    }
+    .about_title {
+        width: 100%;
+        font-size: 50px;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .about_name {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 32px;
+        text-align: center;
+    }
+    .desc_job {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 19px;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    .about_icons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+}

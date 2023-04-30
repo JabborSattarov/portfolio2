@@ -1,0 +1,27 @@
+.button {
+    padding: 12px 24px;
+    background: #606b6f;
+    color: #c7a886;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+}
+.hide {
+    display: none;
+}
+.button:hover {
+    cursor: pointer;
+    color: #ff8400;
+    transition: ease-in .3s;
+    background: #606b59;
+}
+@media(max-width: 1023px) {
+    .button {
+        padding: 8px 16px;
+        font-weight: normal;
+    }
+}
+@media(max-width: 769px) {
+
+}
