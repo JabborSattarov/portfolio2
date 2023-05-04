@@ -14,7 +14,7 @@
     cursor: pointer;
     color: #ff8400;
     transition: ease-in .3s;
-    background: #606b59;
+    background: #383a37;
 }
 @media(max-width: 1023px) {
     .button {
