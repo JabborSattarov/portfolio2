@@ -23,7 +23,7 @@ const Home = () => {
                         </a>
                         <a
                             className="telegram_icon"
-                            href="https://instagram.com/jabbor_o4o"
+                            href="https://t.me/Abdujabbor_Sattarov"
                             target="_blanck"
 
                         >
@@ -31,7 +31,7 @@ const Home = () => {
                         </a>
                         <a
                             className="linkedin_icon"
-                            href="https://instagram.com/jabbor_o4o"
+                            href="linkedin.com/in/abdujabbor-sattarov-072bb326b"
                             target="_blanck"
         
                         >
