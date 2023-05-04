@@ -31,7 +31,7 @@ const Home = () => {
                         </a>
                         <a
                             className="linkedin_icon"
-                            href="https://linkedin.com/in/abdujabbor-sattarov-072bb326b"
+                            href="https://www.linkedin.com/in/abdujabbor-sattarov-072bb326b/"
                             target="_blanck"
         
                         >
